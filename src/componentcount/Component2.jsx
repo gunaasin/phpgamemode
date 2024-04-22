@@ -100,7 +100,8 @@ echo $length;
       <Maincom title={"Namespaces"}
 
        game={' https://gunaasin.github.io/namespace/ '}
-       url={'https://videoconsole-lac.vercel.app/?url=https://www.youtube.com/embed/_Ss42Vb1SU4'}
+       
+       url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/1190d5b71d19edc498/e1979ec0395c47e6'}
        
         steps={['In PHP, a namespace is a way to organize code by grouping related classes, interfaces, functions, and constants under a specific name. This helps in preventing naming conflicts between different parts of your codebase, especially when youre working with third-party libraries or when your project grows larger.',
                 'Step 1: Define a namespace MyNamespace',

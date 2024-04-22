@@ -43,7 +43,8 @@ if (mysqli_num_rows($result) > 0) {
     <>
     <Maincom  title={"Data Interaction"}
     game={"https://gunaasin.github.io/dataintegration/"}
-    url={'https://videoconsole-lac.vercel.app/'}
+    
+    url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/4d90d5b71d19edc8c4/88e9e4e38edb9c9a'}
      steps={[
      'Data interaction in a game involves storing and retrieving various types of game-related data, such as player information, game progress, scores, items, and more. PHP can be used to interact with a database to manage this data effectively. Heres how you can implement data interaction through a game using PHP:',
      'Executing SQL Queries: Once the connection is established, you can execute SQL queries using mysqli_query() or prepared statements in PDO.',

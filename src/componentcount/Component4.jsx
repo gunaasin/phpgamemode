@@ -75,7 +75,8 @@ export const Component4 = () => {
     <Maincom  title={"Closures"}
     answer={answer}
     game={"https://gunaasin.github.io/closurvillgame/"}
-    url={'https://videoconsole-lac.vercel.app/'}
+    
+    url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/7990d5b71d19eccdf0/2ecca0bbe6c47763'}
        steps={['Closures in PHP allow you to create anonymous functions that can access variables from the parent scope. They are often used in situations where you need to pass a callback function to another function, such as array functions (array_map, array_filter), or for creating more flexible and reusable code.',
        'Step 1: Define a closure using the function keyword and assign it to a variable $greeting. The closure takes a parameter $name and returns a greeting message. We then invoke the closure by passing a value "John" to it.',
        'Step 2: Closures are often used as callback functions, especially with array functions like array_map and array_filter.the closure function($num) { return $num * $num; } is used as a callback function to array_map. It squares each number in the array.',

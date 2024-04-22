@@ -67,7 +67,7 @@ echo "7 - 2 = " . $calculator->subtract(7, 2) . "<br>";
     <>
     <Maincom  title={" Dependency Management and Autoloading"}
     game={"https://ifelse-indol.vercel.app/"}
-    url={'https://videoconsole-lac.vercel.app/'}
+    url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/7090d5b71d19edc9f9/c9b3ee01530eb9e6'}
       steps={['Dependency management in PHP involves handling external libraries or packages that your project relies on. Instead of manually downloading, including, and managing these dependencies, you can use a dependency manager like Composer.',
        
       ]}

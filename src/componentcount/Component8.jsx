@@ -58,7 +58,7 @@ export const Component8 = () => {
            codesnip={codesnip}
            answer={answer}
            game={"https://gunaasin.github.io/errorhandling/"}
-           url={'https://videoconsole-lac.vercel.app/'}
+           url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/d390d5b71d19eccf5a/eb329c3d72661516'}
         steps={['Error handling in PHP involves managing errors and exceptions that occur during the execution of a PHP script. PHP provides several mechanisms for error handling, including error reporting, exception handling, and custom error handlers',
    
       ' PHP provides various error reporting levels that control which errors are reported and how they are displayed or logged. You can set the error reporting level using the error_reporting() function or the error_reporting directive in php.ini.',

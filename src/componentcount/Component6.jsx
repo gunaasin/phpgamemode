@@ -17,7 +17,8 @@ export const Component6 = () => {
 
       <Maincom title={"Dependency Management and Autoloading"}
 game={"http://127.0.0.1:5500/index.html"}
-url={'https://videoconsole-lac.vercel.app/'}
+
+url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/7090d5b71d19edc9f9/c9b3ee01530eb9e6'}
         steps={['Variable Declaration and Memory Allocation , Show how variables are declared and memory is allocated for them in JavaScript.',
      'Step 1: Variable declaration and memory allocation let x = 10; let y = "Hello";',
      'Step 2:  Demonstrate how objects are created and memory is allocated for them.',
@@ -27,6 +28,7 @@ url={'https://videoconsole-lac.vercel.app/'}
      'Explanation: In JavaScript, memory management is handled automatically by the runtime environment. When variables are declared, memory is allocated to store their values.Similarly, when objects are created, memory is allocated to store their properties and values. JavaScript garbage collector periodically scans the memory for objects that are no longer referenced (i.e., no longer in use) and deallocates the memory associated with them. Developers can explicitly remove references to objects to free up memory, though in most cases, this is unnecessary as JavaScript garbage collector handles memory management efficiently.',
         ]}
         codesnip={codesnip}
+        answer={answer}
       />
 
     </>

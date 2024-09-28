@@ -11,7 +11,7 @@ const CodeEditor = (prop) => {
   const editorRef = useRef();
   const [value, setValue] = useState("");
   const [language, setLanguage] = useState("php");
-  const [runCodeData, setRunCodeData] = useState(null); // State to hold runCode data
+  const [runCodeData, setRunCodeData] = useState(null); 
 
 
   const onMount = (editor) => {
@@ -45,33 +45,29 @@ const CodeEditor = (prop) => {
 
   return (
     <Box>
-      <HStack spacing={4}>
-        <Box w="100%">
-          {/* <LanguageSelector language={language} onSelect={onSelect} /> */}
-          <Editor
-            options={{
-              minimap: {
-                enabled: false,
-              },
-            }}
-            height="55vh"
-            theme="vs-dark"
-            language={language}
-            defaultValue={prop.codesnip[language]}
-            onMount={onMount}
-            value={value}
-            onChange={handleChange}
-          // onChange={(value) => setValue(value)}
-          />
-        </Box>
-        <Output editorRef={editorRef} language={language} runcode={runCode} />
-        
       
-        <div className="emptycom"><Game runCodeData={runCodeData}/></div>
-        <ChildComponent  runCodeData={runCodeData}/>
+    <Box >
+      <Editor
+        options={{
+          minimap: {
+            enabled: false,
+          },
+        }}
+        height="60vh"
+        width="36vw"
+        theme="vs-dark"
+        language={language}
+        defaultValue={prop.codesnip[language]}
+        onMount={onMount}
+        value={value}
+        onChange={handleChange}
 
-      </HStack>
+      />
     </Box>
+    <Output editorRef={editorRef} language={language} runcode={runCode} />
+    <Box className="emptycom"><Game runCodeData={runCodeData} /></Box>
+    <ChildComponent runCodeData={runCodeData} />
+</Box>
   );
 };
 export default CodeEditor;
